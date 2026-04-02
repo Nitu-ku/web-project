@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 2 Project</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+
+<h1>Task 2 - Web Development</h1>
+
+<div class="container">
+
+    <!-- Contact Form -->
+    <div class="form-section">
+        <h2>Contact Form</h2>
+        <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Enter Name"><br><br>
+            <input type="email" id="email" placeholder="Enter Email"><br><br>
+            <textarea id="message" placeholder="Enter Message"></textarea><br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- To-Do List -->
+    <div class="todo-section">
+        <h2>To-Do List</h2>
+        <input type="text" id="taskInput" placeholder="Enter task">
+        <button onclick="addTask()">Add</button>
+
+        <ul id="taskList"></ul>
+    </div>
+
+</div>
+
+<script src="task2.js"></script>
+
+</body>
+</html>
