@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #f3f2ef;
+}
+
+/* Navbar */
+.navbar {
+    background: #0a66c2;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Profile */
+.profile {
+    background: white;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 8px 15px;
+    background: #0a66c2;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Skills */
+.skills {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.skill-box span {
+    background: #0a66c2;
+    color: white;
+    padding: 8px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+/* Projects */
+.projects {
+    max-width: 800px;
+    margin: auto;
+}
+
+.project-card {
+    background: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #0a66c2;
+    font-weight: bold;
+}
+
+/* Contact */
+.contact {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #0a66c2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
